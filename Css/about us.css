@@ -1,0 +1,430 @@
+@font-face {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    src: url(/Fonts/Main/main.ttf);
+}
+
+@font-face {
+    font-family: quire;
+    src: url(/Fonts/Main/secoundry.ttf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(/sourceimages/BG2.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#Aboutbutn {
+    color: #2ACCFF;
+
+}
+
+
+.headergrp {
+    margin: 1.2em;
+    padding: 1.5em;
+    display: inline-block;
+
+}
+
+.links {
+
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+nav ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 1.3em;
+    position: relative;
+    left: 33em;
+    bottom: 1em;
+    font-size: 1.1em;
+
+}
+
+
+#infinitybgtext {
+    font-family: quire;
+    color: white;
+    position: absolute;
+    left: 3.8em;
+    margin: 1em;
+    font-size: 12em;
+    top: -.5em;
+    letter-spacing: 0.1em;
+    opacity: .04;
+
+
+}
+
+#infinitybgtext1 {
+    font-family: quire;
+    color: white;
+    position: absolute;
+    left: 3.8em;
+    margin: 1em;
+    font-size: 12em;
+    top: 8.5em;
+    letter-spacing: 0.1em;
+    opacity: .04;
+
+
+}
+
+.lineend {
+
+    position: relative;
+    height: 0.3em;
+    background-color: white;
+    width: 208px;
+    transform: rotate(90deg);
+    opacity: .25;
+    margin-top: -21em;
+    top: -9em;
+    left: -3em;
+    margin-left: 1em;
+}
+
+
+.sociallinks {
+    display: inline-grid;
+    margin-top: -16em;
+    margin-left: 1em;
+    position: relative;
+    top: -23em;
+}
+
+
+
+
+/* .footer { */
+/* background-color: black; */
+/* color: white; */
+/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+/* position: relative; */
+/* top: 1em; */
+/* opacity: .5; */
+/* display: flex; */
+/* justify-content: center; */
+
+/* } */
+
+.text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+    font-size: 5.5em;
+    position: relative;
+    left: 1.1em;
+    top: 1.6em;
+    color: white;
+}
+
+
+
+
+.text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+    font-size: 5.5em;
+    position: relative;
+    left: 1.1em;
+    top: .6em;
+    color: #2ACCFF;
+
+}
+
+.text3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+    font-size: 5.5em;
+    position: relative;
+    left: 2.9em;
+    top: -1.6em;
+    color: white;
+}
+
+.text4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+    font-size: 5em;
+    position: relative;
+    left: 1.2em;
+    top: -2.8em;
+    color: white;
+}
+
+#paragraph1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 10.1em;
+    margin-top: -16em;
+    font-size: 1.1em;
+}
+
+.mainpara {
+
+    position: relative;
+    top: -3em;
+    padding: 1em;
+}
+
+.image1 {
+
+    margin-left: 65em;
+    margin-top: -39em;
+    padding: 0;
+
+}
+
+#imag2 {
+    margin-left: -0.5em;
+    margin-top: 23em;
+    z-index: -1;
+    position: absolute;
+    opacity: .3;
+
+}
+
+
+#whittext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 14em;
+    display: flex;
+    position: relative;
+    top: 7em;
+    font-size: 5.5em;
+    color: white;
+    margin-top: -3em;
+
+}
+
+#whittext1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 11.5em;
+    display: flex;
+    position: relative;
+    top: 9em;
+    font-size: 6em;
+    color: white;
+    margin-top: -3em;
+
+}
+
+#bluetext {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 14.5em;
+    display: flex;
+    position: relative;
+    top: 10.6em;
+    font-size: 5.5em;
+    color: #2ACCFF;
+    margin-top: -3em;
+}
+
+
+
+#bluetext1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 11.6em;
+    display: flex;
+    position: relative;
+    top: 13em;
+    font-size: 5.5em;
+    color: #2ACCFF;
+    margin-top: -3em;
+}
+
+
+#paragraph2 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    position: relative;
+    top: 68em;
+    font-size: 1em;
+    color: white;
+    left: 67em;
+    text-align: right;
+
+}
+
+
+.sec0 {
+
+    margin-top: 93em;
+    margin-left: 3em;
+    color: white;
+}
+
+.sec0text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6em;
+}
+
+.sec0text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6em;
+    margin-top: -2.1em;
+    margin-left: 3em;
+    color: #2ACCFF;
+}
+
+.sec0text3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.18em;
+    margin-top: -3.1em;
+    margin-left: 1em;
+}
+
+.sec1 {
+
+    margin-top: 1em;
+    margin-left: 4em;
+    color: white;
+
+}
+
+#sec1text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color: #2ACCFF;
+
+}
+
+#sec1text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+
+}
+
+#sec1text3 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin-top: -.7em;
+
+}
+
+.sec2 {
+
+    margin-top: -19.8em;
+    margin-left: 29em;
+    color: white;
+}
+
+#sec2text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color: #2ACCFF;
+
+}
+
+#sec2text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+
+}
+
+#sec2text3 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin-top: -.7em;
+
+}
+
+.sec3 {
+
+    margin-top: -19.8em;
+    margin-left: 57em;
+    color: white;
+}
+
+#sec3text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color: #2ACCFF;
+
+}
+
+#sec3text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+
+}
+
+#sec3text3 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin-top: -.7em;
+
+}
+
+.sec4 {
+
+    margin-top: -22.5em;
+    margin-left: 80em;
+    color: white;
+}
+
+#sec4text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color: #2ACCFF;
+
+}
+
+#sec4text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+
+}
+
+#sec4text3 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin-top: -.7em;
+
+}
+
+.infinitybgtext4 {
+    font-family: quire;
+    color: white;
+    font-size: 7em;
+    letter-spacing: 0.1em;
+    margin-top: 1.5em;
+    margin-left: 9.5em;
+    margin-bottom: -108em;
+    opacity: .1;
+
+}
+
+.imag3 {
+    margin-top: 87em;
+}
+
+.secall {
+
+    margin-top: -147em;
+    margin-left: -1em;
+}
+
+.page2sec {
+
+    margin-top: -23em;
+
+}

@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    src: url(/Fonts/Main/main.ttf);
+}
+
+@font-face {
+    font-family: quire;
+    src: url(/Fonts/Main/secoundry.ttf);
+}
+
+html {
+
+    overflow-x: hidden;
+}
+
+body {
+    
+  
+
+
+    background-image: url(/sourceimages/BG2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+
+#homebuttn {
+    color: #2ACCFF;
+
+}
+
+
+.headergrp {
+    margin: 1.2em;
+    padding: 1.5em;
+    display: inline-block;
+    
+}
+
+.links {
+
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+nav ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 1.3em;
+    position: relative;
+    left: 33em;
+    bottom: 1em;
+    font-size: 1.1em;
+    
+}
+
+#Creative {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: .5em;
+    margin: 1em;
+    font-size: 8.5em;
+    letter-spacing: 0.15em;
+    top: .6em;
+    
+}
+
+#Studio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2ACCFF;
+    position: relative;
+    left: 0.7em;
+    margin: 1em;
+    font-size: 7.5em;
+    top: .8em;
+    letter-spacing: 0.15em;
+    
+}
+
+#infinitybgtext {
+    font-family: quire;
+    color: white;
+    position: absolute;
+    left: 3.8em;
+    margin: 1em;
+    font-size: 12em;
+    top: .65em;
+    letter-spacing: 0.1em;
+    opacity: .04;
+    
+
+}
+
+#para12 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #B5B5B5;
+    position: relative;
+    left: 12em;
+    margin: 1em;
+    top: -1em;
+    font-size: 1em;
+    text-align: left;
+    
+}
+
+
+.introimg {
+    position: absolute;
+    left: -1em;
+    top: -25em;
+    margin: 26em;
+    padding: 0;
+    display: inline;
+    z-index: -1;
+    
+}
+
+.lineend {
+
+    position: relative;
+    height: 0.3em;
+    background-color: white;
+    width: 208px;
+    margin: 25px;
+    left: -3em;
+    top: -6.5em;
+    transform: rotate(90deg);
+    opacity: .25;
+    
+}
+
+.sociallinks {
+    display: inline-grid;
+    position: relative;
+    margin: 1em;
+    top: 2.8em;
+    
+}
+
+.footer {
+    /* background-color: black; */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 1em;
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+   
+}

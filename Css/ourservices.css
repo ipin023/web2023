@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    src: url(/Fonts/Main/main.ttf);
+}
+
+@font-face {
+    font-family: quire;
+    src: url(/Fonts/Main/secoundry.ttf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(/sourceimages/BG2.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+
+}
+
+#Servicesbutn {
+    color: #2ACCFF;
+
+}
+
+
+.headergrp {
+    margin: 1.2em;
+    padding: 1.5em;
+    display: inline-block;
+
+
+
+}
+
+.links {
+
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+nav ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 1.3em;
+    position: relative;
+    left: 33em;
+    bottom: 1em;
+    font-size: 1.1em;
+
+}
+
+.lineend {
+
+    position: relative;
+  height: 0.3em;
+  background-color: white;
+  width: 208px;
+  transform: rotate(90deg);
+  opacity: .25;
+  margin-top: -68em;
+  top: -38em;
+  left: -3em;
+  margin-left: 1em;
+
+}
+
+
+.sociallinks {
+    display: inline-grid;
+    margin-left: 1em;
+    position: relative;
+    top: -99em;
+  
+}
+
+.sociallinksgrp {
+
+    margin-top: -11em;
+}
+
+.ossec1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flex;
+    margin: -2em 1em 1em 10em;
+    font-size: 3.6em;
+}
+
+.ossec1text1 {
+
+    color: white;
+}
+
+.ossec1text2 {
+
+    color: #2ACCFF;
+    padding-left: .5em;
+}
+
+.ossec2 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.7em;
+    margin: auto 0em auto 7em;
+}
+
+.ossec2text1 {
+    color: #2ACCFF;
+
+}
+
+.ossec2text2 {
+    color: white;
+    margin-top: -.5em;
+
+}
+
+.ossec3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
+    color: white;
+    margin: -1em 0em auto 21.3em;
+
+}
+
+#infinitybgtext1 {
+    font-family: quire;
+    color: white;
+    font-size: 12em;
+    letter-spacing: 0.1em;
+    opacity: .04;
+    margin-top: -2.7em;
+    margin-left: 4.9em;
+}
+
+
+.ossec4img {
+    width: 35em;
+    height: 35em;
+    margin-left: 64em;
+    margin-top: -17em;
+}
+
+#infinitybgtext2 {
+    font-family: quire;
+    color: white;
+    font-size: 12em;
+    letter-spacing: 0.1em;
+    opacity: .04;
+    margin-top: 0em;
+    margin-left: 4.9em;
+}
+
+.ossec5 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    margin: -3em 0em auto 24.2em;
+}
+
+.ossec5text1 {
+    color: #2ACCFF;
+
+}
+
+.ossec5text2 {
+    color: white;
+    margin-top: -0.8em;
+
+}
+
+.ossec6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
+    color: white;
+    margin: -1em 0em auto 81.5em;
+
+}
+
+.ossec7img {
+    width: 63em;
+    height: 41em;
+    margin-left: 10em;
+    margin-top: -32em;
+
+}
+
+
+.ossec8 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    margin: 2em 0em auto 6.8em;
+}
+
+.ossec8text1 {
+    color: #2ACCFF;
+
+}
+
+.ossec8text2 {
+    color: white;
+    margin-top: -0.8em;
+
+}
+
+.ossec9 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
+    color: white;
+    margin: -1em 0em auto 23.5em;
+
+}
+
+.ossec10img {
+    width: 48em;
+    height: 29em;
+    margin-left: 54em;
+    margin-top: -24em;
+
+}
+
+
+#infinitybgtext3 {
+    font-family: quire;
+    color: white;
+    font-size: 12em;
+    letter-spacing: 0.1em;
+    opacity: .04;
+    margin: 4.5em auto 0em 5em;
+}

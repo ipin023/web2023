@@ -1,0 +1,303 @@
+@font-face {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    src: url(/Fonts/Main/main.ttf);
+}
+
+@font-face {
+    font-family: quire;
+    src: url(/Fonts/Main/secoundry.ttf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(/sourceimages/BG2.jpg) ;
+    background-repeat: repeat-y;
+    background-size: cover;
+    
+}
+
+#Careerbutn {
+    color: #2ACCFF;
+
+}
+
+
+.headergrp {
+    margin: 1.2em;
+    padding: 1.5em;
+    display: inline-block;
+
+}
+
+.links {
+
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+nav ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 1.3em;
+    position: relative;
+    left: 33em;
+    bottom: 1em;
+    font-size: 1.1em;
+
+}
+
+.careersec1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flex;
+    font-size: 4em;
+    margin: -1.8em auto -1em 10em
+}
+
+.sec1text1 {
+    color: white;
+    margin-right: .35em;
+}
+
+.sec1text2 {
+
+    color: #2ACCFF;
+}
+
+.careersec2 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: white;
+    margin: -1.5em auto -1em 16.8em;
+
+
+}
+
+.sec1ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flex;
+    font-size: 1.1em;
+    color: white;
+    margin: auto AUTO auto 34em;
+}
+
+.sec1ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+
+}
+
+.sec3text4 {
+    color: #2ACCFF;
+    list-style: none;
+}
+
+#infinitybgtext1 {
+    font-family: quire;
+    color: white;
+    font-size: 12em;
+    letter-spacing: 0.1em;
+    opacity: .04;
+    margin-top: -0.25em;
+    margin-left: 5em;
+
+}
+
+
+
+.careersec41 {
+    margin-top: -16em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: .9em;
+    margin-left: 3.2em;
+}
+
+.careersec42 {
+    display: inline-flex;
+    position: absolute;
+    margin: 4em auto auto 9em;
+
+
+}
+
+.fnameform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: .9em;
+    padding: 0.3em;
+    width: 20em;
+    color: white;
+}
+
+
+.emailform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: .9em;
+    padding: 0.3em;
+    width: 20em;
+    color: white;
+    margin-inline: 7em;
+}
+
+.phonenoform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: .9em;
+    padding: 0.3em;
+    width: 20em;
+    color: white;
+}
+
+.careersec43 {
+
+    display: inline-flex;
+    position: absolute;
+    margin: 12em auto auto 9em;
+}
+
+.Postform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: .9em;
+    padding: 0.3em;
+    width: 20em;
+    color: white;
+}
+
+
+.Levelform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: .9em;
+    padding: 0.3em;
+    width: 20em;
+    color: white;
+    margin-inline: 7em;
+}
+
+.Currentcompanyform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: .9em;
+    padding: 0.3em;
+    width: 20em;
+    color: white;
+}
+
+.careersec44 {
+
+    display: inline-flex;
+    position: absolute;
+    margin: 20em auto auto 9em;
+
+}
+
+.Countryform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: .9em;
+    padding: 0.3em;
+    width: 20em;
+    color: white;
+}
+
+
+.linkdineform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: .9em;
+    padding: 0.3em;
+    width: 20em;
+    color: white;
+    margin-inline: 7em;
+}
+
+.Showreelform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: .9em;
+    padding: 0.3em;
+    width: 20em;
+    color: white;
+}
+
+.careersec5 {
+
+    color: white;
+    margin-left: 83em;
+    margin-top: 5em;
+
+}
+
+.addinfoform {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+
+}
+
+.addinfoform1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 29em;
+  height: 12em;
+  background-color: #565D5E;
+  border: none;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1em;
+  resize: none;
+
+}
+
+.subbtn {
+
+    background-color: #2ACCFF;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    width: 24.7em;
+    height: 2.6em;
+    cursor: pointer;
+}
+
+
+.resume{
+
+    display: none;
+}
+
+.lineend {
+
+    position: relative;
+    height: 0.3em;
+    background-color: white;
+    width: 208px;
+    transform: rotate(90deg);
+    opacity: .25;
+    margin-top: -21em;
+    top: 14em;
+    left: -3em;
+    margin-left: 1em;
+}
+
+
+.sociallinks {
+    display: inline-grid;
+    margin-top: -16em;
+    margin-left: 1em;
+    position: relative;
+    top: 0em;
+}
+
+.sociallinksgrp{
+
+    margin-top: -11em;
+}

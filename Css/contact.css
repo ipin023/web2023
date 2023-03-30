@@ -1,0 +1,252 @@
+@font-face {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    src: url(/Fonts/Main/main.ttf);
+}
+
+@font-face {
+    font-family: quire;
+    src: url(/Fonts/Main/secoundry.ttf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(/sourceimages/BG2.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#Contactbutn {
+    color: #2ACCFF;
+
+}
+
+
+.headergrp {
+    margin: 1.2em;
+    padding: 1.5em;
+    display: inline-block;
+
+}
+
+.lineend {
+
+    position: relative;
+    height: 0.3em;
+    background-color: white;
+    width: 208px;
+    transform: rotate(90deg);
+    opacity: .25;
+    margin-top: -21em;
+    top: 14em;
+    left: -3em;
+    margin-left: 1em;
+}
+
+
+.sociallinks {
+    display: inline-grid;
+    margin-top: -16em;
+    margin-left: 1em;
+    position: relative;
+    top: 0em;
+}
+
+.links {
+
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+nav ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 1.3em;
+    position: relative;
+    left: 33em;
+    bottom: 1em;
+    font-size: 1.1em;
+
+}
+
+.contacttext1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7.1em;
+    margin-top: 0em;
+    margin-left: 8em;
+    color: white;
+
+}
+
+.contacttext2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7.1em;
+    margin-top: -2em;
+    margin-left: 12.7em;
+    color: #2ACCFF;
+}
+
+.contactpara1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    margin-top: -4em;
+    text-align: right;
+    
+}
+
+
+
+.contactgrpphone {
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    margin: 1em auto auto 76em;
+
+}
+
+.contactgrpphone li {
+     
+    padding: 1em;
+
+}
+
+.contactemail {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 86em;
+    margin-top: 5em;
+}
+
+.contactgrpemail {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: -1em;
+
+}
+
+.emailbgimg {
+
+    position: relative;
+    left: 76em;
+    top: 2.5em;
+}
+
+.contactadd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 86em;
+    margin-top: 5em;
+}
+
+.contactgrpadd {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: -3em;
+
+}
+
+.addbgimg {
+
+    position: relative;
+    left: 76em;
+    top: 2.5em;
+}
+
+.sociallinksgrp {
+
+    position: relative;
+    top: 1em;
+}
+
+#infinitybgtext {
+    font-family: quire;
+    color: white;
+    position: absolute;
+    left: 3.8em;
+    margin: 1em;
+    font-size: 12em;
+    top: 2.7em;
+    letter-spacing: 0.1em;
+    opacity: .04;
+
+
+}
+
+.contactform {
+    margin-top: -28em;
+    margin-left: 10em;
+
+
+}
+
+.nameform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: 1.5em;
+    padding: 0.3em;
+    width: 22em;
+    color: white;
+}
+
+.emailform {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: 1.5em;
+    padding: 0.3em;
+    width: 22em;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.textarea {
+    background-color: transparent;
+    border-style: hidden hidden solid hidden;
+    font-size: 1.5em;
+    padding: 0.3em;
+    width: 22em;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: .2;
+}
+
+.sendbutn {
+    width: 20.6em;
+    height: 2.5em;
+    font-size: 1.6em;
+    color: white;
+    background: rgba(255, 255, 255, 0.8);
+    border-style: none;
+    margin-left: .08em;
+    margin-top: 4em;
+    cursor: pointer;
+}
+
+.contacttextgrp1 {
+
+    position: absolute;
+    left: 71em;
+
+}
